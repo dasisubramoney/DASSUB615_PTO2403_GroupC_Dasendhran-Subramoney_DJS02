@@ -37,8 +37,9 @@ form.addEventListener("submit", (event) => {
     result.innerText = Math.round(dividend / divider);
     result.style.display = "block";
   } else {
-    result.innerText = "Please enter valid numbers.";
+    result.innerText = "Something critical went wrong. Please reload the page";
     result.style.display = "block"; 
+    console.error("Critical error: No numbers where entered");
   }
 
 
