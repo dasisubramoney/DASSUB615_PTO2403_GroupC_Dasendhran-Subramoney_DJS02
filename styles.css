@@ -82,6 +82,7 @@ body {
     color: #e67e22;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: none;
   }
   
   /* Animation for the result */
